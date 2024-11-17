@@ -2,12 +2,12 @@
 
 - **Definition**: WebSockets are a communication protocol providing full-duplex communication channels over a single TCP connection. This allows for real-time data transfer between a client and server without the need for repeated HTTP requests .
 
-**Request-Response Cycle vs. WebSockets**
+**Request-Response Cycle vs WebSockets**
 
 - Traditional communication involves a request-response cycle where the client sends a request to the server and waits for a response, after which the connection is closed .
 - In contrast, WebSockets maintain an open connection, allowing for continuous two-way communication. This is crucial for applications like chat systems where real-time updates are necessary .
 
-**Polling vs. WebSockets**
+**Polling vs WebSockets**
 
 - Polling is a technique where the client repeatedly requests updates from the server at regular intervals. This can lead to unnecessary load on the server and is inefficient, especially with many clients .
 - WebSockets eliminate the need for polling by keeping the connection open, allowing the server to push updates to the client whenever necessary .
